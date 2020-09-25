@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  padding: 1rem;
+  background: #5a81ec;
+  border-bottom: 3px solid black;
+}
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.sub-heading {
+  text-align: center;
+  margin-top: 0.7rem;
+  color: black;
+  font-size: 1.25rem;
+}
+main {
+  padding: 1rem;
+  padding-top: 3rem;
+  min-height: 75vh;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.input-form {
+  display: flex;
+  justify-content: center;
+}
+.input-form input {
+  margin-right: 2rem;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  color: #555;
+  font-size: 1rem;
+  border-radius: 2px;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .container {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .input-form {
+    flex-direction: column;
+  }
+  .input-form input {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+.bookmark-btn {
+  padding: 8px 18px;
+  cursor: pointer;
+  border-radius: 2px;
+  background: #3aebb0;
+  border: none;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.bookmark-btn:hover {
+  background: #6eeec3;
+}
+.output-container {
+  margin-top: 2rem;
+}
+.output-list {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 1.25rem;
+  padding: 0;
+}
+.output-list li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+}
+.output-list a {
+  text-decoration: none;
+  color: #5a81ec;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.output-list a:hover {
+  text-decoration: underline;
+}
+.cross {
+  font-size: 1rem;
+  background-color: #f44336;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.cross:hover {
+  background-color: #fd7b72;
+  color: #ffffff;
+}
+.cross:active {
+  box-shadow: 1px 2px 2px #f44336;
+}
+.edit {
+  color: #b3b3b3;
+  margin-left: auto;
+  margin-right: 1.5rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.edit:hover {
+  color: black;
+}
+.edit:active {
+  color: black;
+  text-shadow: 0 1px 2px gray;
+}
