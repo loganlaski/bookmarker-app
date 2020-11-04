@@ -1,4 +1,4 @@
 # bookmarker-app
-This is a simple bookmarker application created with vanilla JS.
+This is a simple and useful website url bookmarker application.
 
 Project Demo: https://loganlaski.github.io/bookmarker-app/
